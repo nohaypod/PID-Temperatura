@@ -11,6 +11,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define MAX6675_CS 3
 #define MAX6675_SCK 4
 
+int potenciometrogeneral;            // Variable para guardar el valor de potenciometro para uso general.
+
 void setup()
 {
     Serial.begin(9600);
